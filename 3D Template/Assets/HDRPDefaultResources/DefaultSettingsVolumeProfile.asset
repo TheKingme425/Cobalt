@@ -15,16 +15,16 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3
   spectralLut:
     m_OverrideState: 1
-    m_Value: {fileID: 0}
+    m_Value: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
   intensity:
     m_OverrideState: 1
     m_Value: 0
   m_MaxSamples:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 4
 --- !u!114 &-8770122170507510650
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -84,13 +84,13 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   enabled:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   colorMode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   color:
     m_OverrideState: 1
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
@@ -99,7 +99,7 @@ MonoBehaviour:
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 5000
+    m_Value: 13.93
   mipFogMaxMip:
     m_OverrideState: 1
     m_Value: 0.5
@@ -111,16 +111,16 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 297.69
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 50
+    m_Value: 297.69
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 400
+    m_Value: 103.9
   enableVolumetricFog:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   albedo:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -129,7 +129,7 @@ MonoBehaviour:
     m_Value: 1
   depthExtent:
     m_OverrideState: 1
-    m_Value: 64
+    m_Value: 157.5
   denoisingMode:
     m_OverrideState: 1
     m_Value: 2
@@ -153,10 +153,10 @@ MonoBehaviour:
     m_Value: 64
   m_VolumetricFogBudget:
     m_OverrideState: 1
-    m_Value: 0.33
+    m_Value: 0.666
   m_ResolutionDepthRatio:
     m_OverrideState: 1
-    m_Value: 0.666
+    m_Value: 0.5
   directionalLightsOnly:
     m_OverrideState: 1
     m_Value: 0
@@ -467,10 +467,10 @@ MonoBehaviour:
     m_Value: 0
   top:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 1, a: 1}
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
   middle:
     m_OverrideState: 1
-    m_Value: {r: 0.3, g: 0.7, b: 1, a: 1}
+    m_Value: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
   bottom:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bff652df78c97c4f963064ad1f34619, type: 3}
   m_Name: ColorCurves
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   master:
     m_OverrideState: 1
     m_Value:
@@ -685,7 +685,7 @@ MonoBehaviour:
     m_Value: 1
   enable:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   tracing:
     m_OverrideState: 1
     m_Value: 1
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88178bb13f64a54f90d6cd6ef7aa9a1, type: 3}
   m_Name: CloudLayer
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   opacity:
     m_OverrideState: 1
     m_Value: 1
@@ -999,10 +999,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7649d9368d3a5c4ab8ad01a63e04962, type: 3}
   m_Name: ChannelMixer
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   redOutRedIn:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 1
   redOutGreenIn:
     m_OverrideState: 1
     m_Value: 0
@@ -1014,7 +1014,7 @@ MonoBehaviour:
     m_Value: 0
   greenOutGreenIn:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 8
   greenOutBlueIn:
     m_OverrideState: 1
     m_Value: 0
@@ -1026,7 +1026,7 @@ MonoBehaviour:
     m_Value: 0
   blueOutBlueIn:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 4
 --- !u!114 &-3592838317248581947
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1418,10 +1418,10 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 6.14
   intensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.793
   scatter:
     m_OverrideState: 1
     m_Value: 0.7
@@ -1837,7 +1837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df29e7cc05fbec4aa43e06ea875565d, type: 3}
   m_Name: ProceduralSky
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   rotation:
     m_OverrideState: 1
     m_Value: 0
@@ -1901,7 +1901,7 @@ MonoBehaviour:
   active: 1
   screenFadeDistance:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.313
 --- !u!114 &4471492127000212744
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1920,7 +1920,7 @@ MonoBehaviour:
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 30
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   active: 1
   enable:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   opacity:
     m_OverrideState: 1
     m_Value: 1
@@ -2287,7 +2287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b24b200358312b4fa1004e2431c2f1f, type: 3}
   m_Name: ShadowsMidtonesHighlights
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   shadows:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0}
@@ -2298,16 +2298,16 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0}
   shadowsStart:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   shadowsEnd:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.3
   highlightsStart:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.55
   highlightsEnd:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
 --- !u!114 &6226008699774520559
 MonoBehaviour:
@@ -2321,10 +2321,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5ab44aadfb1804db5fd470983ac1b8, type: 3}
   m_Name: LiftGammaGain
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 1, y: 0.9869983, z: 0.97034925, w: 0}
   gamma:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0}
@@ -2346,7 +2346,7 @@ MonoBehaviour:
   active: 1
   cameraClusterRange:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 8.65
 --- !u!114 &7329942728498327186
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2509,11 +2509,11 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 3
   rayTracing:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 2.13
   directLightingStrength:
     m_OverrideState: 1
     m_Value: 0
