@@ -83,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 canslide = true;
             }
-
+            
         }
         if (Input.GetKey(KeyCode.C) && !(Input.GetKey(KeyCode.LeftShift)) && canMove && characterController.isGrounded)
         {
@@ -97,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         if (Slide_cooldown > 0)
         {
             Slide_cooldown -= Time.deltaTime;
-            if (Slide_cooldown < 1)
+            if(Slide_cooldown < 1)
             {
                 Slide_cooldown = 0;
                 canslide = true;
@@ -109,7 +109,7 @@ public class PlayerMovement : MonoBehaviour
             slide_Time -= Time.deltaTime;
             if (!(Input.GetKey(KeyCode.C)))
             {
-
+               
                 if (slide_Time <= 1.5f)
                 {
                     Slide_cooldown = 3f;
@@ -170,6 +170,6 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log(newHeight);
         characterController.height = newHeight;
-
+        
     }
 }

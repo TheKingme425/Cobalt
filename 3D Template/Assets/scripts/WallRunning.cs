@@ -45,9 +45,9 @@ public class WallRunning : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (pm.WallRunning)
+        if(pm.WallRunning)
             wallRunningMovement();
-
+        
     }
 
     private void CheckForWall()
@@ -67,10 +67,10 @@ public class WallRunning : MonoBehaviour
 
         if ((wallLeft || wallRight) && verticalInput > 0 && AboveGround())
         {
-            if (!pm.WallRunning)
-            {
+           if(!pm.WallRunning)
+           {
                 StartWallRun();
-            }
+           }
         }
         else
         {
