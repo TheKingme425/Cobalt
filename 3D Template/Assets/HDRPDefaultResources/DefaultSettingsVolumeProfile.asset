@@ -1421,7 +1421,7 @@ MonoBehaviour:
     m_Value: 6.14
   intensity:
     m_OverrideState: 1
-    m_Value: 0.793
+    m_Value: 0.956
   scatter:
     m_OverrideState: 1
     m_Value: 0.7
@@ -2588,7 +2588,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   useFullACES:
     m_OverrideState: 1
     m_Value: 0
