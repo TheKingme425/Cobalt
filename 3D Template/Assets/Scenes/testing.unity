@@ -234,6 +234,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5735358719121046792, guid: c4068e2a6fc079b4388999f0136d1411,
         type: 3}
+      propertyPath: orientation
+      value: 
+      objectReference: {fileID: 49065720}
+    - target: {fileID: 5735358719121046792, guid: c4068e2a6fc079b4388999f0136d1411,
+        type: 3}
       propertyPath: whatIsWall.m_Bits
       value: 8
       objectReference: {fileID: 0}
@@ -255,7 +260,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1834162429}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1757124138411485639, guid: c4068e2a6fc079b4388999f0136d1411,
+        type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1597100471}
   m_SourcePrefab: {fileID: 100100000, guid: c4068e2a6fc079b4388999f0136d1411, type: 3}
 --- !u!4 &49065720 stripped
 Transform:
@@ -371,6 +380,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -91.446, y: 0, z: 91.412}
+--- !u!4 &152141671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5735079537512599116, guid: 515354f61d24b0946b45ab9632c85a40,
+    type: 3}
+  m_PrefabInstance: {fileID: 911466628}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &208229882
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,6 +879,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: dd92050323ea56944b5fbe1f33b861ed, type: 2}
+    - target: {fileID: -7334951474422550414, guid: 515354f61d24b0946b45ab9632c85a40,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -6726046188830556396, guid: 515354f61d24b0946b45ab9632c85a40,
         type: 3}
       propertyPath: m_UpdateWhenOffscreen
@@ -1508,6 +1528,25 @@ Light:
   m_LightUnit: 0
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1597100464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1757124138411485639, guid: c4068e2a6fc079b4388999f0136d1411,
+    type: 3}
+  m_PrefabInstance: {fileID: 49065719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1597100471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597100464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6d41e8d95854c429f890ad332136c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FirePoint: {fileID: 152141671}
 --- !u!1 &1834162425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1561,7 @@ GameObject:
   - component: {fileID: 1834162427}
   m_Layer: 0
   m_Name: Main Camerea
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
