@@ -40,7 +40,7 @@ MonoBehaviour:
   active: 1
   enable:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   triangleSize:
     m_OverrideState: 1
     m_Value: 30
@@ -388,7 +388,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.032
   smoothness:
     m_OverrideState: 1
     m_Value: 0.2
@@ -397,7 +397,7 @@ MonoBehaviour:
     m_Value: 1
   rounded:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   mask:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -1153,7 +1153,6 @@ MonoBehaviour:
   - {fileID: -7089757308646879465}
   - {fileID: -8770122170507510650}
   - {fileID: 4981354747274665315}
-  - {fileID: 5305602202033311358}
   - {fileID: -4650751015088782691}
   - {fileID: -6232794316269787393}
   - {fileID: -5557706266062953917}
@@ -1185,6 +1184,7 @@ MonoBehaviour:
   - {fileID: -4888732962546505394}
   - {fileID: -7123123820424550814}
   - {fileID: 3163832932615703730}
+  - {fileID: 3028086677525571461}
 --- !u!114 &351164206880515109
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1433,7 +1433,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   dirtIntensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 9.9
   anamorphic:
     m_OverrideState: 1
     m_Value: 1
@@ -1825,6 +1825,37 @@ MonoBehaviour:
   cropToFit:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &3028086677525571461
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c604242b4dd4c8caa4d1944b94189e0, type: 3}
+  m_Name: HighQualityLineRenderingVolumeComponent
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 0
+  compositionMode:
+    m_OverrideState: 1
+    m_Value: 0
+  clusterCount:
+    m_OverrideState: 1
+    m_Value: 24
+  sortingQuality:
+    m_OverrideState: 1
+    m_Value: 0
+  tileOpacityThreshold:
+    m_OverrideState: 1
+    m_Value: 1
+  writeDepthAlphaThreshold:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &3163832932615703730
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2093,37 +2124,6 @@ MonoBehaviour:
   planetCenterPosition:
     m_OverrideState: 1
     m_Value: {x: 0, y: -6378100, z: 0}
---- !u!114 &5305602202033311358
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c604242b4dd4c8caa4d1944b94189e0, type: 3}
-  m_Name: HighQualityLineRenderingVolumeComponent
-  m_EditorClassIdentifier: 
-  active: 1
-  enable:
-    m_OverrideState: 1
-    m_Value: 1
-  compositionMode:
-    m_OverrideState: 1
-    m_Value: 0
-  clusterCount:
-    m_OverrideState: 1
-    m_Value: 24
-  sortingQuality:
-    m_OverrideState: 1
-    m_Value: 1
-  tileOpacityThreshold:
-    m_OverrideState: 1
-    m_Value: 0.95
-  writeDepthAlphaThreshold:
-    m_OverrideState: 1
-    m_Value: 0
 --- !u!114 &5315503232242033309
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2151,13 +2151,13 @@ MonoBehaviour:
     m_Value: 0
   compensation:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1.36
   limitMin:
     m_OverrideState: 1
-    m_Value: -1
+    m_Value: 2.0270267
   limitMax:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 0.5675676
   curveMap:
     m_OverrideState: 1
     m_Value:
@@ -2241,10 +2241,10 @@ MonoBehaviour:
     m_Value: 1
   adaptationSpeedDarkToLight:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 4.41
   adaptationSpeedLightToDark:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.54
   weightTextureMask:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -2510,7 +2510,7 @@ MonoBehaviour:
     m_Value: 3
   rayTracing:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   intensity:
     m_OverrideState: 1
     m_Value: 2.13
@@ -2726,7 +2726,7 @@ MonoBehaviour:
   interCascadeBorders: 1
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 150
+    m_Value: 147.86
   directionalTransmissionMultiplier:
     m_OverrideState: 1
     m_Value: 1
@@ -2735,13 +2735,13 @@ MonoBehaviour:
     m_Value: 4
   cascadeShadowSplit0:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0.08836931
   cascadeShadowSplit1:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0.20995204
   cascadeShadowSplit2:
     m_OverrideState: 1
-    m_Value: 0.3
+    m_Value: 0.40791368
   cascadeShadowBorder0:
     m_OverrideState: 1
     m_Value: 0.06905067
