@@ -2587,6 +2587,8 @@ MonoBehaviour:
   FirePoint: {fileID: 933182157}
   lineRenderer: {fileID: 1597100472}
   laserLength: 10
+  shot: 0
+  animator: {fileID: 1136961398}
 --- !u!120 &1597100472
 LineRenderer:
   serializedVersion: 2
