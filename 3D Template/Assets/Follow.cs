@@ -7,21 +7,21 @@ public class Follow : MonoBehaviour
 {
     public NavMeshAgent Enemy;
     public Transform Player;
-    public float health = 10;
+   // public float health = 10;
     // Start is called before the first frame update
     void Start()
     {
-        health = 10;
+        //health = 10;
     }
 
     // Update is called once per frame
     void Update()
     {
         Enemy.SetDestination(Player.position);
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+        //if (health <= 0)
+       // {
+       //     Destroy(gameObject);
+       // }
     }
 }
 
