@@ -310,34 +310,6 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "032e450321ec4134b890a9d238164cda"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "443a6c87e24f4e9e8f74de24e9385025"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "992a2fe3e3cd438d9daa196ba1777773"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "443a6c87e24f4e9e8f74de24e9385025"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
                     "m_Id": "a6f8d236069241a0b912e5ec8cd256f9"
                 },
                 "m_SlotId": 1
@@ -422,7 +394,35 @@
             },
             "m_InputSlot": {
                 "m_Node": {
+                    "m_Id": "032e450321ec4134b890a9d238164cda"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "a6f8d236069241a0b912e5ec8cd256f9"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
                     "m_Id": "66911dc4abd04670a5b7e060b4bc0e19"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "a6f8d236069241a0b912e5ec8cd256f9"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "992a2fe3e3cd438d9daa196ba1777773"
                 },
                 "m_SlotId": 0
             }
@@ -3386,7 +3386,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Intensity",
     "m_StageCapability": 3,
-    "m_Value": 13.350000381469727,
+    "m_Value": 5.329999923706055,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }

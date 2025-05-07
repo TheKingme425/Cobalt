@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
         float curSpeedY = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
-        Debug.Log(characterController.height);
+        
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded && canslide == true)
         {
 
@@ -160,7 +160,7 @@ public class PlayerMovement : MonoBehaviour
         {
             AdjustCollider(crouchHeight);
             characterController.center = new Vector3(0, 0.2f, 0);
-            Debug.Log("Is slideing");
+            
             IsSlideing = true;
             canslide = false;
             slide_Time = 2f;
@@ -169,7 +169,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void AdjustCollider(float newHeight)
     {
-        Debug.Log(newHeight);
+       
         characterController.height = newHeight;
         
     }
