@@ -32,6 +32,8 @@ public class Health : MonoBehaviour
         if (health <= 0)
         {
             Destroy(GameObject.FindGameObjectWithTag("Player"));
+            GameObject.Find("DeathScreen").SetActive(true);
+            GameObject.Find("Canvas").SetActive(false);
         }
     }
 }
