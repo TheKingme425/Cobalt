@@ -18,10 +18,11 @@ public class Follow : MonoBehaviour
     void Update()
     {
         Enemy.SetDestination(Player.position);
+        Debug.Log("Player Position: " + Player.transform.position);
         //if (health <= 0)
-       // {
-       //     Destroy(gameObject);
-       // }
+        // {
+        //     Destroy(gameObject);
+        // }
     }
 }
 
