@@ -19,9 +19,9 @@ public class Health : MonoBehaviour
     {
         health = maxHealth;
     }
-    public void TakeDamage(int amount)
+    public void TakeDamage(float amount)
     {
-        health -= amount;
+        amount = health;
         OnPlayerDamaged?.Invoke();
 
         if (health <= 0)
