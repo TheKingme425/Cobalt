@@ -1424,7 +1424,7 @@ MonoBehaviour:
     m_Value: 0.956
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.978
   tint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -2154,10 +2154,10 @@ MonoBehaviour:
     m_Value: 1.36
   limitMin:
     m_OverrideState: 1
-    m_Value: 2.0270267
+    m_Value: 15
   limitMax:
     m_OverrideState: 1
-    m_Value: 0.5675676
+    m_Value: -1.8831168
   curveMap:
     m_OverrideState: 1
     m_Value:
