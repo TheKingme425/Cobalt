@@ -10,7 +10,7 @@ public class Health : MonoBehaviour
     public static event Action OnPlayerDamaged;
     public static event Action OnPlayerDeath;
     public Image healthBar;
-
+    public Slider Health1;
 
 
 
@@ -19,9 +19,14 @@ public class Health : MonoBehaviour
     {
         health = maxHealth;
     }
+    private void Update()
+    {
+        Health1.value = health; 
+    }
     public void TakeDamage(float amount)
     {
         amount = health;
+        health = amount;
         OnPlayerDamaged?.Invoke();
 
         if (health <= 0)
