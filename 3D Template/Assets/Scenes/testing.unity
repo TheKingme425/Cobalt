@@ -289,6 +289,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1597100472}
+    - targetCorrespondingSourceObject: {fileID: 1757124138411485639, guid: c4068e2a6fc079b4388999f0136d1411,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1597100473}
   m_SourcePrefab: {fileID: 100100000, guid: c4068e2a6fc079b4388999f0136d1411, type: 3}
 --- !u!4 &49065720 stripped
 Transform:
@@ -1864,7 +1868,7 @@ PrefabInstance:
     - target: {fileID: 6283028310302865341, guid: 10631d62e6696f745b30d7b13d94c1d9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.858288
+      value: 45.45
       objectReference: {fileID: 0}
     - target: {fileID: 6283028310302865341, guid: 10631d62e6696f745b30d7b13d94c1d9,
         type: 3}
@@ -1914,7 +1918,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1544099985250417245, guid: 10631d62e6696f745b30d7b13d94c1d9,
+        type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 2131774605}
   m_SourcePrefab: {fileID: 100100000, guid: 10631d62e6696f745b30d7b13d94c1d9, type: 3}
 --- !u!1 &1106474321
 GameObject:
@@ -2696,6 +2704,29 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 1
   m_ApplyActiveColorSpace: 1
+--- !u!136 &1597100473
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597100464}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1.716397
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.65575206, z: 0}
 --- !u!1 &1694001910
 GameObject:
   m_ObjectHideFlags: 0
@@ -3795,6 +3826,28 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &2131774596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1544099985250417245, guid: 10631d62e6696f745b30d7b13d94c1d9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1054016644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2131774605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131774596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b19b89258e759f49ba9af42b5963865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1
+  damageInterval: 1
+  player: {fileID: 0}
+  enemy: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
